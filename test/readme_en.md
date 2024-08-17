@@ -17,7 +17,6 @@ This Docker container runs a script that uses `cppcheck` to analyze the source c
 
 First, build the Docker image with the following command:
 
-```sh
 docker build -t vuln_analisis_tool .
 
 ### 2. Run the Container
@@ -33,5 +32,4 @@ The script will prompt you for the project path inside the container (which shou
 
 📌 Notes
 
-Ensure cppcheck is installed on your local machine if you want to use it outside the container.
 The container will remove temporary files generated during the analysis upon completion.

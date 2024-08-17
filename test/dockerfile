@@ -4,7 +4,7 @@ RUN apt-get update && \
     apt-get -y install bash && \
     apt-get -y install cppcheck
 
-COPY test1.sh /usr/local/bin/vuln
+COPY vuln /usr/local/bin/vuln
 
 RUN chmod +x /usr/local/bin/vuln
 

@@ -16,7 +16,6 @@ Este contenedor Docker ejecuta un script que utiliza `cppcheck` para analizar el
 
 Primero, construye la imagen Docker con el siguiente comando:
 
-```sh
 docker build -t vuln_analisis_tool .
 ### 2. Ejecutar el Contenedor
 Asegúrate de estar en el directorio que contiene el código fuente que deseas analizar. Luego, ejecuta el contenedor con:
@@ -24,5 +23,4 @@ Asegúrate de estar en el directorio que contiene el código fuente que deseas a
 docker run -it --rm -v $(pwd):/proyecto vuln_analisis_tool
 
 📌 Notas
-Asegúrate de que cppcheck esté instalado en tu máquina local si deseas usarlo fuera del contenedor.
 El contenedor eliminará los archivos temporales generados durante el análisis al finalizar la ejecución.
