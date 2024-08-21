@@ -27,7 +27,7 @@ docker run -it --rm -v $(pwd):/proyecto cmvgg/vuln_analisis_tool
 
 3. Interaction
 
-The script will prompt you for the project path inside the container (which should be /proyecto), and then generate a vulnerability report in the mounted directory.
+The script generate a vulnerability report in the mounted directory.
 
 📌 Notes
 
