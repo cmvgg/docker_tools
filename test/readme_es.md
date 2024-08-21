@@ -25,7 +25,7 @@ Asegúrate de estar en el directorio que contiene el código fuente que deseas a
 docker run -it --rm -v $(pwd):/proyecto cmvgg/vuln_analisis_tool
 
 ### 3. Interacción
-El script te pedirá la ruta del proyecto dentro del contenedor (que debe ser /proyecto), y luego generará un reporte de vulnerabilidades en el directorio montado.
+El script generará un reporte de vulnerabilidades en el directorio montado.
 
 📌 Notas
 
